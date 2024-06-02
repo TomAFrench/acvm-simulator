@@ -96,7 +96,7 @@
 
       commonArgs = {
         pname = "acvm_js";
-        version = "0.0.0"; # x-release-please-version
+        version = "0.1.0"; # x-release-please-version
 
         src = pkgs.lib.cleanSourceWith {
           src = craneLib.path ./.;
